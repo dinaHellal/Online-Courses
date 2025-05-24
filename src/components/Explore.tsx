@@ -5,7 +5,7 @@ return (
 <>
 <div className={exploreCss.explore}></div>
   <div className={exploreCss.unlock}>
-  <img src="/public/Icon Container.png" alt="Icon" />
+  <img src="/Icon Container.png" alt="Icon" />
   <h1> <span>Unlock</span> Your Creative Potential</h1>
   </div>
   <div className={exploreCss.sparkle}>
