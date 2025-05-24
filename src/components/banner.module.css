@@ -1,0 +1,24 @@
+ p{
+  background-color: orange;
+  text-align: center;
+  padding:8px 10px;
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 2px;
+}
+img{
+  position: relative;
+  bottom: 45px;
+  left: 880px;
+}
+@media (max-width: 991px){
+  p{
+    font-size: 10px;
+  }
+  img{
+    width: 20px;
+    position: relative;
+    left: 310px;
+    bottom: 35px;
+  }
+}
