@@ -4,7 +4,7 @@ return (
   <>
   <div className={styleVideo.video}>
   <div className="video">
-        <img src="/public/Container.png" alt="" />
+        <img src="/Container.png" alt="" />
       </div>
   </div>
   </>

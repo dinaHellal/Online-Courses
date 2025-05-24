@@ -56,12 +56,15 @@ body {
 }
 @media (max-width: 991px) {
   .unlock {
-    position: fixed;
-    left: 0;
-    top: 150px;
+    position: relative;
+    left: 15px;
+    top: 0px;
     font-size: 10px;
-    width: 100%;
+    width: 300px;
     height: 50px;
+  }
+  .unlock img{
+    display: none;
   }
   .sparkle {
     display: none;
