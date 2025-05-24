@@ -2,6 +2,7 @@ import Banner from "./components/Banner";
 import Explore from "./components/Explore";
 import Header from "./components/Header";
 import Supporter from "./components/Supporters";
+import Video from "./components/Video";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Header />
       <Explore />
       <Supporter />
+    <Video />
     </>
   );
 }
