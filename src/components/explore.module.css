@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  background-color: rgb(235, 231, 231);
+}
+
+.unlock {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: 580px;
+  padding: 5px 10px 5px 15px;
+  left: 350px;
+  bottom: 30px;
+  border-radius: 5px;
+}
+.unlock img {
+  width: 48ox;
+  position: absolute;
+  left: 14px;
+  top: 15px;
+}
+.unlock h1 span {
+  color: orange;
+}
+.sparkle {
+  position: relative;
+  width: 15px;
+  height: 30px;
+  bottom: 145px;
+  left: 340px;
+}
+
+.ray1,
+.ray2,
+.ray3 {
+  position: absolute;
+  width: 2px;
+  height: 15px;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform-origin: center bottom;
+}
+
+.ray1 {
+  transform: rotate(-22deg) translate(-50%, -100%);
+  height: 20px;
+}
+.ray2 {
+  transform: rotate(-100deg) translate(-50%, -100%);
+}
+.ray3 {
+  transform: rotate(30deg) translate(-50%, -100%);
+}
+@media (max-width: 991px) {
+  .unlock {
+    position: fixed;
+    left: 0;
+    top: 150px;
+    font-size: 10px;
+    width: 100%;
+    height: 50px;
+  }
+  .sparkle {
+    display: none;
+  }
+  .hero {
+    position: relative;
+    top: 50px;
+  }
+}
+.hero {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+.btn {
+  text-align: center;
+  gap: 10px;
+}
+.pushRight {
+  background-color: #fff;
+  margin-left: 10px;
+  padding: 10px 10px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.login {
+  background-color: orange;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  margin-left: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+@media (max-width: 991px) {
+.btn{
+  position: relative;
+  top: 75px;
+}
+}
