@@ -1,0 +1,30 @@
+.support {
+  background-color: white;
+  max-width: 100%;
+  position: relative;
+  top: 50px;
+}
+.support .supporter img {
+  padding: 20px 0;
+  position: relative;
+  left: 0;
+  top: 0px;
+  border-left: 1px solid #e9e5e5;
+  margin: auto;
+}
+@media (max-width:991px) {
+  .support {
+      position: relative;
+    top: 110px;
+  }
+  .support .supporter {
+    width: 100%;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+  
+  }
+  .support .supporter img{
+    width: 175px;
+  }
+}
