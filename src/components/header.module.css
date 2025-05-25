@@ -4,7 +4,6 @@ header {
   position: sticky;
   top: 0px;
   padding: 20px;
-  z-index: 10;
   width: 100%;
 width: fit-content;
 }
