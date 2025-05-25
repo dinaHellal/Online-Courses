@@ -2,6 +2,8 @@
 .benefits{
       font-family: "Roboto", sans-serif;
 padding: 110px;
+    /* background-color: brown; */
+
 }
 
 
@@ -58,10 +60,26 @@ p{
   font-size: 15px;
 }
 @media (max-width:991px){
-    .cards{
-      width: 100%;
-    }
-  .cards .card{
+  .benefits {
+    width: 220px;
+  }  
+  .headerRow{
     width: 250px;
+    font-size: 25px;
+  }
+  .headerRow h2{
+    font-size: 30px;
+  }
+  .benefit p{
+    font-size: 15px;
+  }
+  .cards{
+      width: 250px;
+    }
+
+  .cards .card{
+    width: 260px;
+position: relative;
+left: 30px;
   }
 }
