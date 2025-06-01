@@ -1,5 +1,6 @@
 import Banner from "./components/Banner";
 import Benefits from "./components/Benefits";
+import Courses from "./components/Courses";
 import Explore from "./components/Explore";
 import Header from "./components/Header";
 import Supporter from "./components/Supporters";
@@ -14,6 +15,7 @@ export default function App() {
       <Supporter />
     <Video />
     <Benefits />
+    <Courses />
     </>
   );
 }
